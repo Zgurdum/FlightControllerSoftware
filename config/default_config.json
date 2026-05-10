@@ -1,0 +1,21 @@
+{
+  "connection": {
+    "baudrate": 115200,
+    "timeout": 1.0
+  },
+  "gui": {
+    "telemetry_update_rate": 20,
+    "window_width": 1000,
+    "window_height": 700
+  },
+  "calibration": {
+    "gyro_calibration_samples": 100,
+    "accel_calibration_samples": 200,
+    "mag_calibration_duration": 30
+  },
+  "logging": {
+    "enabled": true,
+    "log_level": "INFO",
+    "log_file": "data/flight_controller.log"
+  }
+}
