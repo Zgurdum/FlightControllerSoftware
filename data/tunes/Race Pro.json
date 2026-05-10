@@ -1,0 +1,36 @@
+{
+  "name": "Race Pro",
+  "author": "ThrustMaster",
+  "description": "Aggressive race setup for tight tracks. High P gains, low D. Very snappy response.",
+  "fc_type": "F722",
+  "version": "1.0",
+  "tags": [
+    "race",
+    "aggressive",
+    "fast"
+  ],
+  "pid": {
+    "roll": {
+      "p": 52,
+      "i": 95,
+      "d": 28
+    },
+    "pitch": {
+      "p": 56,
+      "i": 100,
+      "d": 30
+    },
+    "yaw": {
+      "p": 45,
+      "i": 90,
+      "d": 0
+    }
+  },
+  "rates": {
+    "rc_rate": 1.4,
+    "super_rate": 0.8,
+    "expo": 0.1
+  },
+  "created": "2025-01-15 14:00",
+  "builtin": true
+}

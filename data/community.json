@@ -1,0 +1,67 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "author": "ThrustMaster",
+      "callsign": "THRUST",
+      "content": "Welcome to the Community Board! Share your tunes, tips, and flights here. Happy flying! \ud83d\ude81",
+      "timestamp": "2025-01-01 00:00",
+      "msg_type": "welcome",
+      "avatar_color": "#7c3aed"
+    },
+    {
+      "id": 2,
+      "author": "AirBender",
+      "callsign": "AIRB",
+      "content": "Pro tip: Always calibrate your accelerometer on a flat surface BEFORE your first flight. Makes a big difference in angle mode!",
+      "timestamp": "2025-01-02 14:30",
+      "msg_type": "tip",
+      "avatar_color": "#0ea5e9"
+    },
+    {
+      "id": 3,
+      "author": "FPV_Academy",
+      "callsign": "ACAD",
+      "content": "Beginners: Start with low rates (rc_rate ~0.6) and work your way up as you get more comfortable. Don't rush it!",
+      "timestamp": "2025-01-05 10:15",
+      "msg_type": "tip",
+      "avatar_color": "#22c55e"
+    },
+    {
+      "id": 4,
+      "author": "NightOwl",
+      "callsign": "NITE",
+      "content": "My Velvet King tune is now in the library. Perfect for smooth cinematic passes at dusk. Let me know what you think!",
+      "timestamp": "2025-04-12 21:05",
+      "msg_type": "tune_share",
+      "avatar_color": "#f59e0b"
+    },
+    {
+      "id": 5,
+      "author": "YX",
+      "callsign": "TM87",
+      "content": "Sharing my current tune:\nRoll  P:42 I:85 D:35 | Pitch P:46 I:90 D:38 | Yaw  P:40 I:85 D:0\nRC Rate: 1.00  Super: 0.70  Expo: 0.15",
+      "timestamp": "2026-05-10 16:40",
+      "msg_type": "tune_share",
+      "avatar_color": "#44bce3"
+    },
+    {
+      "id": 6,
+      "author": "YX",
+      "callsign": "TM87",
+      "content": "Jest los ovaj FC",
+      "timestamp": "2026-05-10 17:47",
+      "msg_type": "text",
+      "avatar_color": "#44bce3"
+    },
+    {
+      "id": 7,
+      "author": "YX",
+      "callsign": "TM87",
+      "content": "Sharing my current tune:\nRoll  P:42 I:85 D:35 | Pitch P:46 I:90 D:38 | Yaw  P:40 I:85 D:0\nRC Rate: 1.00  Super: 0.70  Expo: 0.15",
+      "timestamp": "2026-05-10 17:47",
+      "msg_type": "tune_share",
+      "avatar_color": "#44bce3"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Tiny Ripper",
+  "author": "MicroMaster",
+  "description": "Optimized for 3\" builds. Tighter PID loop for high kv motors.",
+  "fc_type": "F722",
+  "version": "1.0",
+  "tags": [
+    "3inch",
+    "micro",
+    "high-kv"
+  ],
+  "pid": {
+    "roll": {
+      "p": 60,
+      "i": 110,
+      "d": 20
+    },
+    "pitch": {
+      "p": 64,
+      "i": 115,
+      "d": 22
+    },
+    "yaw": {
+      "p": 55,
+      "i": 100,
+      "d": 0
+    }
+  },
+  "rates": {
+    "rc_rate": 1.6,
+    "super_rate": 0.85,
+    "expo": 0.05
+  },
+  "created": "2025-05-01 08:00",
+  "builtin": true
+}

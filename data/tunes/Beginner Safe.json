@@ -1,0 +1,36 @@
+{
+  "name": "Beginner Safe",
+  "author": "FPV_Academy",
+  "description": "Gentle tune for beginners. Low sensitivity and high D dampening for stability.",
+  "fc_type": "F722",
+  "version": "1.5",
+  "tags": [
+    "beginner",
+    "safe",
+    "stable"
+  ],
+  "pid": {
+    "roll": {
+      "p": 30,
+      "i": 65,
+      "d": 45
+    },
+    "pitch": {
+      "p": 33,
+      "i": 68,
+      "d": 47
+    },
+    "yaw": {
+      "p": 28,
+      "i": 60,
+      "d": 0
+    }
+  },
+  "rates": {
+    "rc_rate": 0.6,
+    "super_rate": 0.4,
+    "expo": 0.4
+  },
+  "created": "2025-01-01 12:00",
+  "builtin": true
+}

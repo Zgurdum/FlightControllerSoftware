@@ -1,0 +1,32 @@
+{
+  "name": "YX",
+  "callsign": "ASDASD",
+  "bio": "asdasdasd",
+  "fc_type": "F722",
+  "avatar_color": "#44bce3",
+  "pid": {
+    "roll": {
+      "p": 42,
+      "i": 85,
+      "d": 35
+    },
+    "pitch": {
+      "p": 46,
+      "i": 90,
+      "d": 38
+    },
+    "yaw": {
+      "p": 40,
+      "i": 85,
+      "d": 0
+    }
+  },
+  "rates": {
+    "rc_rate": 1.0,
+    "super_rate": 0.7,
+    "expo": 0.15
+  },
+  "notes": "",
+  "created": "2026-05-10 16:16",
+  "last_modified": "2026-05-10 16:16"
+}

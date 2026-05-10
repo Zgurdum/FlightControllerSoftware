@@ -1,6 +1,9 @@
 @echo off
 REM F722 Flight Controller - Installer and Launcher
 
+REM Ensure we're in the script's directory
+cd /d "%~dp0"
+
 echo ========================================
 echo F722 Flight Controller Software Setup
 echo ========================================
@@ -20,7 +23,8 @@ if %ERRORLEVEL% NEQ 0 (
 
 echo.
 echo [1/3] Installing dependencies...
-pip install -q pyserial
+python -m pip install -q setuptools wheel --upgrade
+python -m pip install -q pyserial vpython numpy
 if %ERRORLEVEL% NEQ 0 (
     echo Failed to install dependencies
     pause

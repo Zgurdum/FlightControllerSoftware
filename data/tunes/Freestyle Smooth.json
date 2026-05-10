@@ -1,0 +1,36 @@
+{
+  "name": "Freestyle Smooth",
+  "author": "AirBender",
+  "description": "Balanced freestyle tune. Smooth throttle response, floaty feel for flow style flying.",
+  "fc_type": "F722",
+  "version": "2.1",
+  "tags": [
+    "freestyle",
+    "smooth",
+    "flow"
+  ],
+  "pid": {
+    "roll": {
+      "p": 42,
+      "i": 85,
+      "d": 38
+    },
+    "pitch": {
+      "p": 45,
+      "i": 88,
+      "d": 40
+    },
+    "yaw": {
+      "p": 38,
+      "i": 80,
+      "d": 0
+    }
+  },
+  "rates": {
+    "rc_rate": 1.0,
+    "super_rate": 0.7,
+    "expo": 0.2
+  },
+  "created": "2025-02-20 09:30",
+  "builtin": true
+}

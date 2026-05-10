@@ -4,6 +4,9 @@ REM Run this FIRST to verify your F722 is working before launching the full GUI
 
 setlocal enabledelayedexpansion
 
+REM Ensure we're in the script's directory
+cd /d "%~dp0"
+
 echo ========================================
 echo F722 Flight Controller - Connection Test
 echo ========================================
@@ -23,14 +26,26 @@ if !ERRORLEVEL! NEQ 0 (
 
 REM Check dependencies
 echo [1/3] Checking dependencies...
-pip show pyserial >nul 2>&1
+python -m pip install -q setuptools wheel --upgrade >nul 2>&1
+
+python -m pip show pyserial >nul 2>&1
 if !ERRORLEVEL! NEQ 0 (
     echo Installing pyserial...
-    pip install -q pyserial
+    python -m pip install -q pyserial
     if !ERRORLEVEL! NEQ 0 (
         echo Failed to install pyserial
         pause
         exit /b 1
+    )
+)
+
+python -m pip show vpython >nul 2>&1
+if !ERRORLEVEL! NEQ 0 (
+    echo Installing vpython...
+    python -m pip install -q vpython
+    if !ERRORLEVEL! NEQ 0 (
+        echo Failed to install vpython (3D visualization will be disabled)
+        REM Don't exit, vpython is optional
     )
 )
 echo OK

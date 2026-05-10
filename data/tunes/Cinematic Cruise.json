@@ -1,0 +1,36 @@
+{
+  "name": "Cinematic Cruise",
+  "author": "SkyDrifter",
+  "description": "Ultra smooth cinematic tune. Low rates, gentle response perfect for cinematic footage.",
+  "fc_type": "F722",
+  "version": "1.3",
+  "tags": [
+    "cinematic",
+    "smooth",
+    "slow"
+  ],
+  "pid": {
+    "roll": {
+      "p": 32,
+      "i": 70,
+      "d": 42
+    },
+    "pitch": {
+      "p": 35,
+      "i": 74,
+      "d": 44
+    },
+    "yaw": {
+      "p": 30,
+      "i": 65,
+      "d": 0
+    }
+  },
+  "rates": {
+    "rc_rate": 0.7,
+    "super_rate": 0.5,
+    "expo": 0.35
+  },
+  "created": "2025-03-05 16:20",
+  "builtin": true
+}
