@@ -1,6 +1,6 @@
 # F722 Flight Controller Software
 
-Professional drone programming software for F722 flight controllers running Betaflight firmware, similar to Betaflight Configurator.
+Drone programming software for F722 flight controllers running Betaflight firmware, similar to Betaflight Configurator.
 
 ## Features
 
