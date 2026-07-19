@@ -112,10 +112,4 @@ Upcoming features to extend functionality:
 - Check USB cable quality
 - Reduce baudrate if communication is unstable
 
-## License
 
-Custom drone programming software for F722 flight controllers.
-
-## Author
-
-Created for professional flight controller configuration and monitoring.
